@@ -9,8 +9,9 @@ A web application for managing delivery agents. Users can add agents, browse and
 
 ## Source code
 
-- Frontend repository: https://github.com/sriram-tech-bit/zoop-Frontend
-- Backend repository: https://github.com/sriram-tech-bit/Zoop-Backend
+- Combined frontend and backend repository: https://github.com/sriram-tech-bit/Zoop-Delivery-Agent-System
+- Frontend source folder: `zoopFrontend/`
+- Backend source folder: `zoopBackend/`
 
 If a URL is not clickable in the document preview, copy the full address and paste it into Chrome's address bar.
 
@@ -35,4 +36,4 @@ Each agent record contains a full name, phone number, email address, service are
 4. Open the agent details and update a field such as service area or status.
 5. Delete the test agent.
 
-Backend setup, environment variable names, API endpoint details, and additional CRUD test commands are documented in the README in the backend repository. No database or Redis credentials are included in this document.
+Backend setup, environment variable names, API endpoint details, and additional CRUD test commands are documented in `zoopBackend/README.md`. Frontend setup instructions are in `zoopFrontend/README.md`. No database or Redis credentials are included in this document.
